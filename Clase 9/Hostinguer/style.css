@@ -1,0 +1,79 @@
+
+
+
+:root{
+    --color-texto: #3a3c3b;
+    --fuente-principal: sans-serif;
+}
+
+*{
+    font-family: var(--fuente-principal);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--color-texto);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.logo-conteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.logo-conteiner .logo{
+    width: 140px;
+}
+
+.logo-conteiner .selector-lenguaje{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-conteiner .selector-lenguaje .pais{
+    width: 35px;
+}
+
+.logo-conteiner .selector-lenguaje .lenguaje{
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav .link-conteiner{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+
+
+}
+
+nav .link-conteiner .linkitem{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+nav .link-conteiner .linkitem .link{
+    text-decoration: none;
+
+}
+
+nav .links-conteiner .linkitem .btn-link{
+    
+}
