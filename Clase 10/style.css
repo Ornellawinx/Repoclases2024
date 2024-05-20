@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    width: 100vw;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.hijo{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid black;
+    max-width: 500px;
+}
+
+@media screen and (min-width: 900px) /*tiene que estar abajo siempre*/{
+    .padre{
+        flex-direction: row;
+    }
+    .hijo{
+        background-color: aqua;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*.hijo:nth-child(1){
+    background-color: rgb(138, 64, 64);
+}
+
+.hijo:nth-child(2){
+    background-color: rgb(65, 38, 107);
+    /*margin-bottom: 200px; no seria lo correcto para posicionar
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;   
+}
+
+.hijo:nth-child(3){
+    background-color: rgb(151, 255, 161);
+    z-index: 2;
+}
+
+.buscador-contenedor{
+    position: relative;
+    width: 300px;
+}
+
+.buscador-contenedor .lupita{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    right: 0px;
+}*/
